@@ -35,7 +35,7 @@ Lengths <- function(depth, w.1 = 0.1, plant.MW = 1000, n.chains = 3, fs = 1.67) 
   length.5 <- Submerged(depth,fairlead.5,w = w.1)*n.chains*ceiling(plant.MW/5)
   return(c(length.5, length.8, length.10, length.15))
 }
-T.Sizes <- c(3.3, 5,8,10,15)
+T.Sizes <- c(5,8,10,15)
 #Wind speed class 8
 L_08.1 <- Lengths(160,w.1 = 0.1)
 L_08.2 <- Lengths(160,w.1 = 0.2)
