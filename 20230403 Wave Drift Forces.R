@@ -1,6 +1,6 @@
 # Created By: Rudolph Santarromana
 # Wave Drift Forces Calculation
-# February 2021
+
 
 setwd("C:/Users/Rudolph/Desktop/Rudolph/0 - CMU - Portugal PhD Files/0 - Research/Wind Energy/Dynamic Positioning")
 
