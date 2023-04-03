@@ -1,5 +1,4 @@
 # Created by Rudolph Santarromana
-# June 2021
 # Blade Thrust Forces
 
 library(tidyverse)
