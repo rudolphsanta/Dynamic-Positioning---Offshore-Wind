@@ -1,6 +1,6 @@
 # Rudolph Santarromana
 # 5 MW Turbine
-# June 2021
+
 
 library(tidyverse)
 library(dplyr)
@@ -643,7 +643,7 @@ sensitivity_5 <- function(shape, scale, OCC.High, OCC.Low, FOM.High.base, FOM.Lo
   
   #DP Thrusters
   DP_Thrusters <- read.csv("C:/Users/Rudolph/Desktop/Rudolph/0 - CMU - Portugal PhD Files/0 - Research/Wind Energy/Dynamic Positioning/Kongsberg Thruster Specs/Kongsberg Thrusters.csv") %>%
-  rename("Name" = "ï..Name")
+  rename("Name" = "Ã¯..Name")
   
   diameters <- DP_Thrusters$PropellerD_m
   number <- seq(1,30)
